@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Smart Guardian</string>
+    <string name="login">Log In</string>
+    <string name="login_with_gmail">Login with Gmail</string>
+    <string name="login_with_apple">Login with Apple</string>
+    <string name="login_with_qr">Login with QR</string>
+    <string name="login_with_pin">Login with PIN</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="time_cards">Time Cards</string>
+    <string name="schedules">Schedules</string>
+    <string name="employees">Employees</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="inbox_fragment">Inbox Fragment</string>
+
+    <!-- Employee Fragment Strings -->
+    <string name="employee_title">Employees</string>
+    <string name="employee_image_desc">Employee Image</string>
+    <string name="user_image">User Image</string>
+    <string name="employee_view">View</string>
+    <string name="employee_active">Active</string>
+    <string name="employee_inactive">Inactive</string>
+    <string name="employee_all">All</string>
+    <string name="employee_add">Add a new Employee</string>
+    <string name="employee_first_name">First Name</string>
+    <string name="employee_last_name">Last Name</string>
+    <string name="employee_username">Username</string>
+    <string name="employee_email">Email</string>
+    <string name="employee_manager">Manager</string>
+    <string name="employee_last_active">Last Active</string>
+    <string name="employee_action">Actions</string>
+    <string name="edit">Edit</string>
+
+
+    <string-array name="alert_type_array">
+        <item>Alert to Student</item>
+        <item>Alert to Employee</item>
+        <item>Alert to Faculty</item>
+        <item>Alert to Teacher</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="alert_time_array">
+        <item>10-20 minutes</item>
+        <item>20-30 minutes</item>
+        <item>30-40 minutes</item>
+        <item>40-50 minutes</item>
+        <item>50-60 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+
+
+    <!--    for Dash board-->
+
+    <string name="todays_schedule_image">Today\'s Schedule Image</string>
+    <string name="punched_in_image">Punched In Image</string>
+    <string name="pending_approval_image">Pending Approval Image</string>
+    <string name="punched_out_image">Punched Out Image</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+
+    <!-- Labels -->
+    <string name="username_hint">Username</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="or">OR</string>
+
+    <string name="logo_text">Smart Guardian</string>
+
+    <string name="or_login_with">or_login_with</string>
+    <string name="geofencing_status">geofencing_text\n\n</string>
+    <string name="check_geofences">checkgeofence</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="preview_image">Preview Image</string>
+
+    <string-array name="user_types">
+        <item>Admin</item>
+        <item>Manager</item>
+        <item>User</item>
+    </string-array>
+
+
+</resources>

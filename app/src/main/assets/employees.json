@@ -1,0 +1,34 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "username": "johndoe",
+    "email": "john@example.com",
+    "isManager": true,
+    "isActive": true
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "username": "janesmith",
+    "email": "jane@example.com",
+    "isManager": false,
+    "isActive": false
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "username": "alicejohnson",
+    "email": "alice@example.com",
+    "isManager": true,
+    "isActive": true
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "username": "bobbrown",
+    "email": "bob@example.com",
+    "isManager": false,
+    "isActive": true
+  }
+]

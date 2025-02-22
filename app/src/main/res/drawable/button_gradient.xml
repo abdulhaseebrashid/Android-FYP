@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Default button background (Gradient) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#1E88E5"
+                android:endColor="#1565C0"/>
+            <corners android:radius="30dp"/>
+            <padding android:left="16dp" android:right="16dp" android:top="10dp" android:bottom="10dp"/>
+        </shape>
+    </item>
+
+    <!-- Ripple effect when pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#1565C0"
+                android:endColor="#0D47A1"/>
+            <corners android:radius="30dp"/>
+            <padding android:left="16dp" android:right="16dp" android:top="10dp" android:bottom="10dp"/>
+        </shape>
+    </item>
+
+</selector>

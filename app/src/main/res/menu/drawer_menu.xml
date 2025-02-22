@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard"/>
+    <item
+        android:id="@+id/MapId"
+        android:title="Geo_Fence"
+        android:icon="@drawable/map"/>
+    <!--    <item-->
+    <!--        android:id="@+id/punchApproval"-->
+    <!--        android:title="Punch Approval"-->
+    <!--        android:icon="@drawable/punchapproval"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/timeOfApproval"-->
+    <!--        android:title="Time Off Approval"-->
+    <!--        android:icon="@drawable/timeoffapproval"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/nav_schedules"-->
+    <!--        android:title="Schedules"-->
+    <!--        android:icon="@drawable/schedules"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/timeOff"-->
+    <!--        android:title="Time Off"-->
+    <!--        android:icon="@drawable/timeoff"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/timeCard"-->
+    <!--        android:title="Time Cards"-->
+    <!--        android:icon="@drawable/timecard"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/nav_notifications"-->
+    <!--        android:title="My Notification"-->
+    <!--        android:icon="@drawable/ntification"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/nav_settings"-->
+    <!--        android:title="Settings"-->
+    <!--        android:icon="@drawable/settings"/>-->
+    <item
+        android:id="@+id/nav_Employees"
+        android:title="Employees"
+        android:icon="@drawable/employee"/>
+    <item
+        android:id="@+id/nav_Attendace"
+        android:title="Attendace"
+        android:icon="@drawable/attendance"/>
+    <item
+        android:id="@+id/nav_grouping_attendance"
+        android:title="Group Attendance Info"
+        android:icon="@drawable/group1"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+</menu>

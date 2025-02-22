@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1009098772009",
+    "project_id": "punchbuddyclone",
+    "storage_bucket": "punchbuddyclone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009098772009:android:d351d80c3daaaa7d275638",
+        "android_client_info": {
+          "package_name": "com.example.buddypunchclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcnNNSUWh7-KRzsYYVm91OK6gjmQPmjdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

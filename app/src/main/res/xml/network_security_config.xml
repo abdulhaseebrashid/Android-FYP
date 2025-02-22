@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Keep existing camera IP -->
+        <domain includeSubdomains="true">172.16.30.149</domain>
+
+        <!-- Add second camera IP (commented out for now) -->
+         <domain includeSubdomains="true">172.16.30.150</domain>
+
+        <!-- Add localhost/emulator -->
+<!--        <domain includeSubdomains="true">10.0.2.2</domain>-->
+
+        <!-- If you're testing on a physical device, add your Django server's actual IP -->
+        <!-- <domain includeSubdomains="true">YOUR_DJANGO_SERVER_IP</domain> -->
+
+        <!-- Additional IP addresses from the second file -->
+        <!-- Your local IP address (Home) -->
+        <!-- <domain includeSubdomains="true">172.16.27.84</domain> -->
+
+        <!-- Your local IP address (University) -->
+        <!-- <domain includeSubdomains="true">172.16.27.84</domain> -->
+
+        <!-- Your local IP address (Of Haseeb Home) -->
+        <!-- <domain includeSubdomains="true">192.168.100.9</domain> -->
+
+        <!-- Replace with your laptop's local IP -->
+        <!-- <domain includeSubdomains="true">172.16.27.92</domain> -->
+
+        <domain includeSubdomains="true">172.16.27.92</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">192.168.100.9</domain>
+        <domain includeSubdomains="true">192.168.100.81</domain>  # Qasim Home
+    </domain-config>
+</network-security-config>

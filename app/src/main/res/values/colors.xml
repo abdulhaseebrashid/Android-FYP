@@ -1,0 +1,17 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="status_success_background">#4CAF50</color>
+    <color name="status_error_background">#F44336</color>
+
+    <color name="light_blue">#3A8DFF</color>
+<!--    <color name="white">#FFFFFF</color>-->
+    <color name="gray">#757575</color>
+
+    <color name="attendance_marked_green">#4CAF50</color>
+    <color name="attendance_pending_red">#F44336</color>
+
+</resources>

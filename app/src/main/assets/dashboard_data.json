@@ -1,0 +1,15 @@
+[
+  {
+    "type": "Meeting",
+    "details": "Project Kickoff at 10:00 AM"
+  },
+  {
+    "type": "Task",
+    "details": "Submit project report by 5:00 PM"
+  },
+  {
+    "type": "Reminder",
+    "details": "Team lunch at 1:00 PM"
+  }
+
+]
